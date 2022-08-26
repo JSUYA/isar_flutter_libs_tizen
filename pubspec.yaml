@@ -1,0 +1,17 @@
+name: isar_flutter_libs_tizen
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      tizen:
+        dartPluginClass: IsarFlutterLibsPlugin
+        pluginClass: IsarFlutterLibsTizenPlugin
+        fileName: isar_flutter_libs_tizen_plugin.h
